@@ -1,0 +1,29 @@
+.acf-field-color-scheme div ul li input[type=radio] {
+    visibility: hidden;
+}
+#acfcs_colors_group {
+    display: inline-block;
+    height: 30px;
+    border: 2px solid #555;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -20px;
+}
+ul.acf-radio-list li input[type=radio]:checked + #acfcs_colors_group{
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid  #004AEA;
+}
+#acfcs_colors_group span:first-child {border-radius: 12px 0px 0px 12px;}
+#acfcs_colors_group span:last-child {border-radius: 0px 12px 12px 0px;}
+#acfcs_colors_group span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+.acfcs_warning {
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px 0px;
+    padding:12px;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    font-weight: bold
+}
